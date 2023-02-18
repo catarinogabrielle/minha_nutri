@@ -149,7 +149,7 @@ img {
     font-size: var(--h2-font-size);
     font-weight: var(--font-light);
     letter-spacing: 4px;
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-6);
 }
 
 .section-text {
@@ -536,6 +536,8 @@ img {
 
 .contato__form {
     text-align: center;
+    display: flex;
+    width: 100%;
 }
 
 .contato__title {
@@ -546,6 +548,7 @@ img {
     position: relative;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .form-control label {
@@ -701,6 +704,7 @@ textarea {
 
     .contato__form{
         margin-bottom: var(--mb-6);
+        display: flex;
     }
 
     .footer__container {
