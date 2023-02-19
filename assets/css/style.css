@@ -373,6 +373,7 @@ img {
 .chefs .img__chefs {
     width: 180px;
     transition: 0.4s;
+    border-radius: 50%;
 }
 
 .chefs .img__chefs:hover {
