@@ -79,7 +79,7 @@ img {
 
 /*---------------BUTTONS-------------------*/
 .btn {
-    width: 100%;
+    width: 80%;
     background: linear-gradient(to right, #bf5545 0%, #fa7c69 100%);
     border: none;
     outline: none;
@@ -149,7 +149,7 @@ img {
     font-size: var(--h2-font-size);
     font-weight: var(--font-light);
     letter-spacing: 4px;
-    margin-bottom: var(--mb-6);
+    margin-bottom: var(--mb-2);
 }
 
 .section-text {
@@ -157,7 +157,13 @@ img {
     color: var(--text-color);
     letter-spacing: 1.2px;
     line-height: 24px;
+    display: flex;
+    flex-direction: column;
     margin-bottom: var(--mb-2);
+}
+
+.section-text strong{
+    margin-top: 5px;
 }
 
 /*---------------LAYOUT-------------------*/
@@ -497,6 +503,7 @@ img {
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 2rem;
+    align-items: center;
 }
 
 .delivery__data a {
